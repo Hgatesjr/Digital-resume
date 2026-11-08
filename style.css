@@ -41,7 +41,7 @@ section {
 }
 
 .title {
-  font-size: 120px;
+  font-size: clamp(48px, 8vw, 120px);
   margin-bottom: 20px;
   text-align: left;
   line-height: 1;
@@ -191,4 +191,25 @@ nav {
 
 .fa-solid {
   font-size: 18px;
+}
+
+
+/* 
+
+RESPONSIVENESS
+
+*/
+
+@media (max-width: 768px) {
+  .header {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: 60px auto 0;
+    font-size: 18px;
+  }
+  .header__para {
+    font-size: 18px;
+  }
 }
