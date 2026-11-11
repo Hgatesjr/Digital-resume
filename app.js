@@ -3,8 +3,8 @@
 // service_hzdkjl8 service id
 // xClO5yHdA5I4JPq2I user id
 
-const isModalOpen = false;
-const contrastToggle = false;
+let isModalOpen = false;
+let contrastToggle = false;
 const scaleFactor = 1 / 20;
 
 function moveBackground(event) {
