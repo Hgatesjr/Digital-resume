@@ -25,7 +25,8 @@ button {
 }
 
 section {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(225, 165, 92);
+  transition: all 200ms ease;
 }
 
 input,
@@ -145,6 +146,32 @@ nav,
   transition: all 400ms;
 }
 
+.dark-theme .section__title, 
+.dark-theme .section__sub-title, 
+.dark-theme .nav__link--anchor, 
+.dark-theme .fa-solid,
+.dark-theme .header__para
+{
+color: white;
+}
+
+.dark-theme section {
+  background-color: #0a0909;
+}
+
+.dark-theme #personal-logo {
+  filter: none;
+}
+
+.dark-theme .title {
+  color: rgb(9, 108, 144);
+}
+
+.dark-theme .link__hover-effect--black:after {
+  background-color: #fff;
+}
+
+
 /* 
 
 LANDING PAGE 
@@ -257,7 +284,7 @@ nav {
 }
 
 #personal-logo {
-  /* filter: invert(1);   */
+  filter: invert(1);  
   height: 50px;
   width: 50px;
   margin: 0 12px;
