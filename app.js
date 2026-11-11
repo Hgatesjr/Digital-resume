@@ -3,18 +3,7 @@
 // service_hzdkjl8 service id
 // xClO5yHdA5I4JPq2I user id
 
-{
-  /* <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "xClO5yHdA5I4JPq2I",
-      });
-   })();
-// </script>   this is for the emailjs in the html*/
-}
+
 
 function contact(event) {
   event.preventDefault();
@@ -38,4 +27,8 @@ function contact(event) {
         "The email service is temporarily unavailable. Please contact me directly at email@homer.gates@yahoo.com",
       );
     });
+}
+
+function toggleModal {
+   // toggle Modal
 }
