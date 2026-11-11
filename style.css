@@ -395,6 +395,7 @@ MODAL
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 }
 
 .modal__overlay--loading {
@@ -402,10 +403,9 @@ MODAL
   font-size: 80px;
   /* I added -- fa spin -- to the <div class="modal__overlay modal__overlay--loading">
             <i class="fas fa-spinner fa-spin"></i> */
-  z-index: -1;
 }
 
-.modal__overlay--sucess {
+.modal__overlay--success {
   background-color: #0f63bd;
   font-size: 36px;
   font-weight: 700;
@@ -419,7 +419,11 @@ MODAL
   right: 40px;
   color: white;
   font-size: 36px;
-  z-index: 100;
+  z-index: 0;
+}
+
+.modal__overlay--visible {
+  z-index: 1;
 }
 
 /* 
