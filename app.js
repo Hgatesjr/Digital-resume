@@ -3,8 +3,6 @@
 // service_hzdkjl8 service id
 // xClO5yHdA5I4JPq2I user id
 
-
-
 function contact(event) {
   event.preventDefault();
   const loading = document.querySelector(".modal__overlay--loading");
@@ -29,6 +27,12 @@ function contact(event) {
     });
 }
 
-function toggleModal {
-   // toggle Modal
+let isModalOpen = false;
+function toggleModal() {
+  if (isModalOpen) {
+    isModalOpen = false;
+    return document.body.classList.remove("modal--open");
+  }
+  isModalOpen = !isModalOpen;
+  document.body.classList += " modal--open";
 }
