@@ -11,6 +11,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/* #landing-page {
+  position: relative;
+  overflow: hidden;
+} */
+
+/* this was a try to fix the shapes over the section title */
+
 li {
   list-style-type: none;
 }
@@ -694,6 +701,10 @@ RESPONSIVENESS
     transform: none;
     margin: 60px auto 0;
     font-size: 18px;
+  }
+
+  .section__title {
+    font-size: 40px;
   }
 
   .header__para {
