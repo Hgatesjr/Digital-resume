@@ -25,7 +25,7 @@ button {
 }
 
 section {
-  background-color: rgb(225, 165, 92);
+  background-color: rgb(240, 236, 232);
   transition: all 200ms ease;
 }
 
@@ -164,7 +164,7 @@ color: white;
 }
 
 .dark-theme .title {
-  color: rgb(9, 108, 144);
+  color: #0f63bd;
 }
 
 .dark-theme .link__hover-effect--black:after {
@@ -601,30 +601,7 @@ footer {
   padding: 16px;
   margin: 20px 0;
 }
-/* 
 
-RESPONSIVENESS
-
-*/
-
-@media (max-width: 768px) {
-  .header {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    margin: 60px auto 0;
-    font-size: 18px;
-  }
-  .header__para {
-    font-size: 18px;
-  }
-
-  nav {
-    height: auto;
-    min-height: 100px;
-  }
-}
 
 
 /* 
@@ -691,4 +668,31 @@ width 80vw
   left: 85vw;
 }
 
+
+/* 
+
+RESPONSIVENESS
+
+*/
+
+/* RESPONSIVE STYLES FOR TABLET AND MOBILE DEVICES */
+
+@media (max-width: 768px) {
+  .header {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: 60px auto 0;
+    font-size: 18px;
+  }
+  .header__para {
+    font-size: 20px;
+  }
+
+  nav {
+    height: auto;
+    min-height: 100px;
+  }
+}
 
