@@ -194,6 +194,7 @@ LANDING PAGE
   width: 100%;
   max-width: 1000px;
   padding: 0 30px;
+  z-index: 1;
 }
 
 .header__para {
@@ -636,6 +637,8 @@ width 80vw
 
 .shapes {
   position: fixed;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .shape--0 {
